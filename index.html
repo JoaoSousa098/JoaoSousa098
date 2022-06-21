@@ -4,36 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/relogio/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-
-    <title>relogio</title>
-   
+    <title>Tecblog - O seu blog de tecnologia</title>
+    <link rel="stylesheet" href="/curso WEBDEV/projeto-tecblog/css/style.css">
+    
 </head>
 <body>
+    <div id="area-cabecalho">
+        <div id="area-logo">
+            <h1>Tec<span class="branco">blog</span></h1>
+        </div>
+        <div id="area-menu">
+            <a href="index.html">Home</a> 
+            <a href="jogos.html">jogos</a> 
+            <a href="celulares.html">celulares</a> 
+            <a href="informatica.html">informatica</a> 
+            <a href="eletronicos">eletronicos</a>
+        </div>
+        
+    </div><!---FIM DO CABEÇALHO-->
 
-    <div class="clock"> 
-        <div class="hand seconds"></div>
-        <div class="hand minutes"></div>
-        <div class="hand hours"></div>
+  <div id="area-principal">
+    <div id="area-postagens">
 
-        <div class="div number number-1">1</div>
-        <div class="div number number-2">2</div>
-        <div class="div number number-3">3</div>
-        <div class="div number number-4">4</div>
-        <div class="div number number-5">5</div>
-        <div class="div number number-6">6</div>
-        <div class="div number number-7">7</div>
-        <div class="div number number-8">8</div>
-        <div class="div number number-9">9</div>
-        <div class="div number number-10">10</div>
-        <div class="div number number-11">11</div>
-        <div class="div number number-12">12</div>
-    
+        <div class="postagem">
+            <h2>Titulo da postagem</h2>
+            <span class="data-postagem"> em 20 de Junho de 2022.</span>
+            <img src="/curso WEBDEV/projeto-tecblog/imagens/imagem1.jpg" alt="postagem-1" width="620px">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, expedita eos nobis officia consectetur adipisci odio? Earum expedita impedit tempora est velit magnam optio dolores, veritatis maxime qui soluta iste?</p>
+            <a href="#">leia mais</a>
+        </div><!---fechamento postagem-->
+
+        <div class="postagem">
+            <h2>Titulo da postagem</h2>
+            <span class="data-postagem"> em 20 de Junho de 2022.</span>
+            <img src="/curso WEBDEV/projeto-tecblog/imagens/imagem2.jpg" alt="postagem-2" width="620px">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, expedita eos nobis officia consectetur adipisci odio? Earum expedita impedit tempora est velit magnam optio dolores, veritatis maxime qui soluta iste?</p>
+            <a href="#">leia mais</a>
+        </div><!---fechamento postagem-->
+
+        <div class="postagem">
+            <h2>Titulo da postagem</h2>
+            <span class="data-postagem"> em 20 de Junho de 2022.</span>
+            <img src="/curso WEBDEV/projeto-tecblog/imagens/imagem3.jpg" alt="postagem-3" width="620px">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, expedita eos nobis officia consectetur adipisci odio? Earum expedita impedit tempora est velit magnam optio dolores, veritatis maxime qui soluta iste?</p>
+            <a href="#">leia mais</a>
+        </div><!---fechamento postagem-->
 
     </div>
-     <script src="/relogio/script.js"></script>
+    <div id="area-lateral">
+
+
+        <div class="conteudo-lateral">
+            <h3>postagens recentes</h3>
+            <div class="postagem-lateral">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus fugit illo dolor, nobis non officia ad nulla debitis esse nam omnis id eveniet inventore, fugiat animi sit ut quam odit?</p>
+                <a href="#">Leia mais</a>
+            </div>
+        </div>
+
+        <div class="conteudo-lateral">
+            <h3>postagens recentes</h3>
+            
+            <a href="#" class="categoria">Jogos</a>
+            <a href="#" class="categoria">Celulares</a>
+            <a href="#" class="categoria">informatica</a>
+            <a href="#" class="categoria">eletronicos</a>
+            <a href="#" class="categoria">Jogos</a>
+
+        </div>
+
+
+    </div><!---FIM DA AREA LATERAL!-->
+
+    
+  </div><!---FIM DA PRINCIPAL-->
+  <div id="area-rodape">
+    Todos os direitos reservados 
+  </div>
 </body>
 </html>
